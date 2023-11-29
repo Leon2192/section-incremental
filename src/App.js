@@ -3,7 +3,9 @@ import Follow from './components/Follow';
 
 function App() {
   return (
-    <Follow />
+    <div className='App'>
+      <Follow />
+    </div>
   );
 }
 
