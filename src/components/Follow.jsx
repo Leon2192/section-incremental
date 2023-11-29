@@ -35,7 +35,7 @@ const Follow = () => {
             {counters.map((counter, index) => (
                 <div key={index} className="flex flex-col justify-center items-center w-1/4 mobileCards">
                     <div className="text-6xl font-bold text-white">+{counter.count}</div>
-                    <div className="mt-2 text-center text-white text-xl mt-5">{counter.text}</div>
+                    <div className="mt-2 text-center font-bold text-white text-xl mt-5">{counter.text}</div>
                 </div>
             ))}
         </div>
